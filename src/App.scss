@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+
+
+* {
+  font-family: Poppins;
+  margin: 0; padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.Todo {
+  width: 1440px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+    .screenTodo {
+      display: flex;
+      flex-direction: column;
+      width: 1170px;
+      margin-left: 80px;
+      margin-right: 190px;
+      margin-top: 146px;
+    }
+  }
+
+@media only screen and (max-width: 375px){
+  .Todo {
+    width: 375px;
+
+    .screenTodo {
+      width: 375px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+
